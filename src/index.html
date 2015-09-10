@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wild Bootstrap Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="row">
+        <div class="col-md-4 col-xs-4">
+            <picture>
+                <source media="(min-width: 768px)"
+                        srcset="images/udacity-logo-large_2x.jpg 2x, images/udacity-logo-large.jpg"/>
+                <img class="img-responsive title-logo" src="images/udacity-logo-small.jpg" alt="Udacity Logo"
+                     srcset="images/udacity-logo-small_2x.jpg 2x, images/udacity-logo-small.jpg">
+            </picture>
+        </div>
+        <div class="col-md-8 col-xs-8 text-right text-uppercase">
+            <h1 class="title-super text-thin">Ilya Levin</h1>
+            <h3 class="title-large">Wild Front-end Ninja</h3>
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-md-12">
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <picture>
+                <source media="(min-width: 992px)"
+                        srcset="images/wild-nature-xlarge_2x.jpg 2x, images/wild-nature-xlarge.jpg"/>
+                <source media="(min-width: 768px)"
+                        srcset="images/wild-nature-large_2x.jpg 2x, images/wild-nature-large.jpg"/>
+                <source media="(min-width: 480px)"
+                        srcset="images/wild-nature-medium_2x.jpg 2x, images/wild-nature-medium.jpg"/>
+                <img class="img-responsive" src="images/wild-nature-small.jpg" alt="Wild nature main image"
+                     srcset="images/wild-nature-small_2x.jpg 2x, images/wild-nature-small.jpg">
+            </picture>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-muted">Wild Animals</h2>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <picture>
+                <source media="(min-width: 1200px)"
+                        srcset="images/works/cheetah-medium_2x.jpg 2x, images/works/cheetah-medium.jpg"/>
+                <source media="(min-width: 992px)"
+                        srcset="images/works/cheetah-xsmall_2x.jpg 2x, images/works/cheetah-xsmall.jpg"/>
+                <source media="(min-width: 480px)"
+                        srcset="images/works/cheetah-xlarge_2x.jpg 2x, images/works/cheetah-xlarge.jpg"/>
+                <source media="(min-width: 320px)"
+                        srcset="images/works/cheetah-large_2x.jpg 2x, images/works/cheetah-large.jpg"/>
+                <img class="img-responsive" data-toggle="modal" data-target="#cheetahModal"
+                     src="images/works/cheetah-small.jpg" alt="Wild cheetah image"
+                     srcset="images/works/cheetah-small_2x.jpg 2x, images/works/cheetah-small.jpg">
+            </picture>
+            <h3>Cheetah</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Cheetah">https://en.wikipedia.org/wiki/Cheetah</a></p>
+        </div>
+        <div class="col-md-4">
+            <picture>
+                <source media="(min-width: 1200px)"
+                        srcset="images/works/eagle-medium_2x.jpg 2x, images/works/eagle-medium.jpg"/>
+                <source media="(min-width: 992px)"
+                        srcset="images/works/eagle-xsmall_2x.jpg 2x, images/works/eagle-xsmall.jpg"/>
+                <source media="(min-width: 480px)"
+                        srcset="images/works/eagle-xlarge_2x.jpg 2x, images/works/eagle-xlarge.jpg"/>
+                <source media="(min-width: 320px)"
+                        srcset="images/works/eagle-large_2x.jpg 2x, images/works/eagle-large.jpg"/>
+                <img class="img-responsive" data-toggle="modal" data-target="#eagleModal"
+                     src="images/works/eagle-small.jpg" alt="Wild eagle image"
+                     srcset="images/works/eagle-small_2x.jpg 2x, images/works/eagle-small.jpg">
+            </picture>
+            <h3>Eagle</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Eagle">https://en.wikipedia.org/wiki/Eagle</a></p>
+        </div>
+        <div class="col-md-4">
+            <picture>
+                <source media="(min-width: 1200px)"
+                        srcset="images/works/shark-medium_2x.jpg 2x, images/works/shark-medium.jpg"/>
+                <source media="(min-width: 992px)"
+                        srcset="images/works/shark-xsmall_2x.jpg 2x, images/works/shark-xsmall.jpg"/>
+                <source media="(min-width: 480px)"
+                        srcset="images/works/shark-xlarge_2x.jpg 2x, images/works/shark-xlarge.jpg"/>
+                <source media="(min-width: 320px)"
+                        srcset="images/works/shark-large_2x.jpg 2x, images/works/shark-large.jpg"/>
+                <img class="img-responsive" data-toggle="modal" data-target="#sharkModal"
+                     src="images/works/shark-small.jpg" alt="Wild shark image"
+                     srcset="images/works/shark-small_2x.jpg 2x, images/works/shark-small.jpg">
+            </picture>
+            <h3>Shark</h3>
+            <p><a href="https://en.wikipedia.org/wiki/Shark">https://en.wikipedia.org/wiki/Shark</a></p>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="cheetahModal" tabindex="-1" role="dialog"
+     aria-labelledby="cheetahModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="cheetahModalLabel">Cheetah</h4>
+            </div>
+            <article class="modal-body">
+                <picture>
+                    <source media="(min-width: 480px)"
+                            srcset="images/works/cheetah-xlarge_2x.jpg 2x, images/works/cheetah-xlarge.jpg"/>
+                    <source media="(min-width: 320px)"
+                            srcset="images/works/cheetah-large_2x.jpg 2x, images/works/cheetah-large.jpg"/>
+                    <img class="img-responsive" src="images/works/cheetah-small.jpg" alt="Wild cheetah image"
+                         srcset="images/works/cheetah-small_2x.jpg 2x, images/works/cheetah-small.jpg">
+                </picture>
+                <p class="text-medium text-dark space-top-small">
+                    The cheetah (Acinonyx jubatus) is a big cat in the subfamily Felinae that inhabits most of Africa
+                    and parts of Iran. It is the only extant member of the genus Acinonyx. The cheetah can run
+                    as fast as 109.4 to 120.7 km/h (68.0 to 75.0 mph), faster than any other land animal.
+                </p>
+            </article>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="eagleModal" tabindex="-1" role="dialog"
+     aria-labelledby="eagleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="eagleModalLabel">Eagle</h4>
+            </div>
+            <article class="modal-body">
+                <picture>
+                    <source media="(min-width: 480px)"
+                            srcset="images/works/eagle-xlarge_2x.jpg 2x, images/works/eagle-xlarge.jpg"/>
+                    <source media="(min-width: 320px)"
+                            srcset="images/works/eagle-large_2x.jpg 2x, images/works/eagle-large.jpg"/>
+                    <img class="img-responsive" src="images/works/eagle-small.jpg" alt="Wild eagle image"
+                         srcset="images/works/eagle-small_2x.jpg 2x, images/works/eagle-small.jpg">
+                </picture>
+                <p class="text-medium text-dark space-top-small">
+                    Eagle is a common name for many large birds of prey of the family Accipitridae; it belongs
+                    to several groups of genera that are not necessarily closely related to each other. Most of
+                    the 60 species of eagles are from Eurasia and Africa.
+                </p>
+            </article>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="sharkModal" tabindex="-1" role="dialog"
+     aria-labelledby="cheetahModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="sharkModalLabel">Shark</h4>
+            </div>
+            <article class="modal-body">
+                <picture>
+                    <source media="(min-width: 480px)"
+                            srcset="images/works/shark-xlarge_2x.jpg 2x, images/works/shark-xlarge.jpg"/>
+                    <source media="(min-width: 320px)"
+                            srcset="images/works/shark-large_2x.jpg 2x, images/works/shark-large.jpg"/>
+                    <img class="img-responsive" src="images/works/shark-small.jpg" alt="Wild shark image"
+                         srcset="images/works/shark-small_2x.jpg 2x, images/works/shark-small.jpg">
+                </picture>
+                <p class="text-medium text-dark space-top-small">
+                    Sharks are a group of fish characterized by a cartilaginous skeleton, five to seven gill
+                    slits on the sides of the head, and pectoral fins that are not fused to the head. Modern sharks
+                    are classified within the clade Selachimorpha (or Selachii) and are the sister group to the rays.
+                </p>
+            </article>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

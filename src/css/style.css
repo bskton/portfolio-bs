@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747774;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-medium {
+    font-size: 110%;
+    line-height: 120%;
+}
+
+.text-dark {
+    color: #525552;
+}
+
+.space-top-small {
+    margin-top: 10px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    .title-super {
+        font-size: 34px;
+    }
+
+    .title-large {
+        font-size: 13px;
+    }
+}
